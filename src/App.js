@@ -1,11 +1,6 @@
 import {
     Box,
-    Container,
-    Divider,
-    Heading,
-    Text,
-    Grid,
-    GridItem, Link, Tooltip
+    Container
 } from "@chakra-ui/react";
 import Introduce from "./1-introduce";
 import Projects from "./2-projects";
