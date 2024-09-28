@@ -17,7 +17,8 @@ const theme = extendTheme({
     },
     colors: {
         gradients: {
-            rainbow: "linear-gradient(90deg, red.600, orange.500, yellow.500, green.500, blue.500)",
+            rainbow: "linear-gradient(90deg, red.500, orange.400, yellow.400, green.400, blue.400)",
+            mint: "linear-gradient(#fff, #fff), linear-gradient(180deg, green.300, cyan.400)"
         },
     },
     styles: {
