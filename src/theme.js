@@ -25,6 +25,7 @@ const theme = extendTheme({
         global: {
             "body": {
                 lineHeight: "1.6",
+                color: "gray.700"
             },
         },
     },
