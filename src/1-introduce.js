@@ -17,14 +17,14 @@ function Introduce() {
 
     return (
         <Box>
-            <Heading fontSize={48} fontWeight={900} lineHeight={1.4} pl={5}
+            <Heading fontSize={[32, 48]} fontWeight={900} lineHeight={1.4} pl={5}
                      borderLeft='10px solid transparent' backgroundImage={theme.colors.gradients.mint}
                      backgroundOrigin='border-box' backgroundClip='padding-box, border-box'
             >
                 안녕하세요,<br/>
                 신입 개발자 박소하입니다.
             </Heading>
-            <Text mt={3} fontSize={24} fontWeight={700}>
+            <Text mt={3} fontSize={[20, 24]} fontWeight={700}>
                 개발은 삶을 윤택하게 변화시키는 도구라고 믿습니다. 더 나은 삶을 위한 개발과, 그 개발을 보다 효과적으로 수행하는 방법에 대해 고민합니다.
             </Text>
 

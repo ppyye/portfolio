@@ -46,7 +46,6 @@ function Experience() {
                 </Text>
                 <Text fontWeight={600}>2018.03-2023.02</Text>
                 <Text mt={2}>
-                    학점 3.83/4.5<br/>
                     학기 우등생 2회, SW특성화 성적 장학 1회 수상<br/>
 
                 </Text>

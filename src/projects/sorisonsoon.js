@@ -42,7 +42,7 @@ function Sorisonsoon() {
     ];
 
     return (
-        <Grid templateColumns='repeat(3, 1fr)' gap={6}>
+        <Grid templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']} gap={6}>
             <GridItem w='100%'>
                 <HStack>
                     <Heading fontSize={24} fontWeight={800}>소리손순</Heading>
@@ -213,7 +213,7 @@ function Sorisonsoon() {
                             <DeployTag/>
                         </HStack>
                         <Text mt={1}>
-                            Docker로 컨테이너화 하고, Github Actions worflow를 작성하여 빌드와 배포가 자동으로 이루어질 수 있도록 했어요.
+                            Docker로 컨테이너화 하고, Github Actions workflow를 작성하여 빌드와 배포가 자동으로 이루어질 수 있도록 했어요.
                         </Text>
                         <Heading mt={3} fontSize={14} fontWeight={600}>→ AWS EC2 환경: 스프링 서버 힙 메모리 OOME</Heading>
                         <Text mt={2}>

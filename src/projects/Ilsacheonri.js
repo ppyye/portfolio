@@ -42,7 +42,7 @@ function Ilsacheonri() {
     ];
 
     return (
-        <Grid templateColumns='repeat(3, 1fr)' gap={6}>
+        <Grid templateColumns={['repeat(1, 1fr)', 'repeat(3, 1fr)']} gap={6}>
             <GridItem w='100%'>
                 <HStack>
                     <Heading fontSize={24} fontWeight={800}>일사천리</Heading>
