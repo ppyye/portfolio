@@ -41,7 +41,7 @@ function App() {
 
           <Box height={[70, 100]}/>
 
-          {scrollPosition > 0 && (<Link href='/#top'>
+          {scrollPosition > 0 && (<Link href='#top'>
               <Box position='fixed'
                    bottom='20px'
                    right={['16px', '34px']}
