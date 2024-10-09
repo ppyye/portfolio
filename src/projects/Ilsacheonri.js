@@ -64,7 +64,7 @@ function Ilsacheonri() {
 
             </GridItem>
             <GridItem w='100%' colSpan={2}>
-                <Text fontWeight={600}>제조업 업무 프로세스를 한 번에 관리하는 ERP 시스템</Text>
+                <Text fontWeight={600}>제조업 프로세스를 한 번에 관리하는 ERP 시스템</Text>
 
                 <Heading mt={6} fontSize={20} fontWeight={800}>
                     Description.
