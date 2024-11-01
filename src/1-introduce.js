@@ -54,7 +54,7 @@ function Introduce() {
                 <Text mt={3} fontSize={16}>
                     <UnorderedList pl={6} spacing={2}>
                         <ListItem>
-                            Figma로 UI를 디자인하고 Styled Component를 통해 빠르게 화면을 구현할 수 있습니다.
+                            Figma로 UI를 디자인하고 CSS 프레임워크를 통해 빠르게 화면을 구현할 수 있습니다.
                         </ListItem>
                         <ListItem>
                             요구사항 분석부터 ERD 설계, FE/BE 개발, 배포까지 전과정에 대한 인사이트를 가져가려 합니다.
