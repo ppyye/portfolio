@@ -96,9 +96,6 @@ function Skills() {
                     <ListItem>
                         협업과 버전 관리를 위해 활용할 수 있는 다양한 기능을 사용하고 있으며, 권한 문제부터 머지 충돌까지 발생한 깃 문제들을 해결해봤습니다.
                     </ListItem>
-                    <ListItem>
-                        Redux를 활용해 전역으로 상태를 관리하며 의도대로 상태를 업데이트할 수 있습니다.
-                    </ListItem>
                 </UnorderedList>
             </Box>
 
